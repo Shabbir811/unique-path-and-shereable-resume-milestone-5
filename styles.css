@@ -99,3 +99,62 @@ button {
 #shereable-link-box{
     display: none;
 }
+
+
+
+
+@media screen and (max-width: 320px){
+    html{
+        font-size: 25%;
+        min-height: 700rem;
+        
+    
+    }
+    body{
+        max-width: 90%
+        
+
+    }
+    form{
+        padding: 14.6rem;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
+   
+   
+    
+
+    
+}
+
+
+@media screen and (max-width: 540px){
+    html{
+        font-size: 25%;
+    }
+    body{
+        width: 90vw;
+        min-height: 100%;
+
+    }
+    .container{
+        width: 95vw;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 640px){
+    html{
+        font-size: 20%;
+
+    }
+    
+}
+
+
