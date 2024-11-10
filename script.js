@@ -2,6 +2,7 @@
 var experienceSection = document.getElementById('experience-section');
 var addExperienceBtn = document.getElementById('add-experience-btn');
 var experienceCount = 0;
+// console.log(addExperienceBtn);
 //logic for experience div when click on botton.
 addExperienceBtn.addEventListener('click', function () {
     experienceCount++;
