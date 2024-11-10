@@ -75,7 +75,7 @@ form.addEventListener('submit', function (event) {
     var ShereableLinkBox = document.getElementById("shereable-link-box");
     var ShereableLinkBtn = document.getElementById("shereable-btn");
     ShereableLinkBtn.addEventListener("click", function () {
-        var uniquePath = "https://shabbir.com/resume/".concat(userName.replace(/\s+/g, "_"), "_cv.html");
+        var uniquePath = "https://shereable-resume-milestone-5.vercel.app/resume/".concat(userName.replace(/\s+/g, "_"), "_cv.html");
         // clipboard api for copy link
         navigator.clipboard.writeText(uniquePath);
         alert("link copy to clipboard 'press Ctrl+V to paste'");
